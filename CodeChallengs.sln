@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyClass", "ProxyClass\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeOptimized", "BeOptimized\BeOptimized.csproj", "{BF6AEF48-0E61-4BAE-8FAA-41B7169D59CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathFinder", "PathFinder\PathFinder.csproj", "{16F4477A-BA92-47B4-945D-E6182FCEAF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReader", "FileReader\FileReader.csproj", "{AFE44D6C-EFD1-46BC-9C4F-6F49946B334D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BF6AEF48-0E61-4BAE-8FAA-41B7169D59CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF6AEF48-0E61-4BAE-8FAA-41B7169D59CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF6AEF48-0E61-4BAE-8FAA-41B7169D59CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F4477A-BA92-47B4-945D-E6182FCEAF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F4477A-BA92-47B4-945D-E6182FCEAF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F4477A-BA92-47B4-945D-E6182FCEAF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F4477A-BA92-47B4-945D-E6182FCEAF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE44D6C-EFD1-46BC-9C4F-6F49946B334D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE44D6C-EFD1-46BC-9C4F-6F49946B334D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE44D6C-EFD1-46BC-9C4F-6F49946B334D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE44D6C-EFD1-46BC-9C4F-6F49946B334D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
