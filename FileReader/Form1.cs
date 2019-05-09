@@ -37,17 +37,24 @@ namespace FileReader
                     var File1 = fileName1;
                     var query = "SELECT * from [Sheet1$]";
                     StringBuilder sb = new StringBuilder();
-                    using (OleDbConnection cn = new OleDbConnection { ConnectionString = ConnectionString(File1, "Yes") })
+                    try
                     {
-                        using (OleDbCommand cmd = new OleDbCommand { CommandText = query, Connection = cn })
+                        using (OleDbConnection cn = new OleDbConnection { ConnectionString = ConnectionString(File1, "Yes") })
                         {
-                            cn.Open();
-
-                            OleDbDataReader dr = cmd.ExecuteReader();
-                            dt.Load(dr);
-                            sb.Append(dt.Rows[0].ToString());
+                            using (OleDbCommand cmd = new OleDbCommand { CommandText = query, Connection = cn })
+                            {
+                                cn.Open();
+                                OleDbDataReader dr = cmd.ExecuteReader();
+                                dt.Load(dr);
+                                sb.Append(dt.Rows[0].ToString());
+                            }
                         }
                     }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.StackTrace.ToString());
+                    }
+
                 }
             }
         }
