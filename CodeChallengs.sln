@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRoom", "FindRoom\FindRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTesting\UnitTesting.csproj", "{2132472D-E2B0-45E3-B65A-8CBE7FFEC513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffGirls", "PowerPuffGirls\PowerPuffGirls.csproj", "{B1385461-E7DB-4EC6-85CE-0C3AA18CCF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffGirls_1", "PowerPuffGirls_1\PowerPuffGirls_1.csproj", "{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{2132472D-E2B0-45E3-B65A-8CBE7FFEC513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2132472D-E2B0-45E3-B65A-8CBE7FFEC513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2132472D-E2B0-45E3-B65A-8CBE7FFEC513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1385461-E7DB-4EC6-85CE-0C3AA18CCF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1385461-E7DB-4EC6-85CE-0C3AA18CCF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1385461-E7DB-4EC6-85CE-0C3AA18CCF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1385461-E7DB-4EC6-85CE-0C3AA18CCF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
