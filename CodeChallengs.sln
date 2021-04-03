@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffGirls", "PowerPuff
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffGirls_1", "PowerPuffGirls_1\PowerPuffGirls_1.csproj", "{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams", "Anagrams\Anagrams.csproj", "{3D18D273-6A67-4708-8E2F-88C3E48262BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.csproj", "{A4D946FA-DA91-4C68-A933-F0077CC62351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1DB2BC2-8AD0-428E-9AA6-609C4BB87BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D18D273-6A67-4708-8E2F-88C3E48262BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D18D273-6A67-4708-8E2F-88C3E48262BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D18D273-6A67-4708-8E2F-88C3E48262BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D18D273-6A67-4708-8E2F-88C3E48262BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D946FA-DA91-4C68-A933-F0077CC62351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D946FA-DA91-4C68-A933-F0077CC62351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D946FA-DA91-4C68-A933-F0077CC62351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D946FA-DA91-4C68-A933-F0077CC62351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
